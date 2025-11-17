@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <NewButton name="Rossella" />
-    <NewImage src = "./assets/react.svg" />
+    <NewImage source ='./assets/react.svg' />
     
   </StrictMode>,
 )

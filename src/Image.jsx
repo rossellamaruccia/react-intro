@@ -4,7 +4,7 @@ import { Component } from 'react'
 class NewImage extends Component {
     render() {
         return (
-            <image>{this.src}</image>
+            <img src = {this.props.source}></img>
         )
     }
 }
