@@ -1,7 +1,7 @@
 import './App.css'
 
 
-function NewButton(props) {
+const NewButton = function(props) {
     
         return (
             <button>
