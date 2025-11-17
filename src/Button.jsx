@@ -1,14 +1,15 @@
 import './App.css'
-import { Component } from 'react'
 
-class NewButton extends Component {
-    render() {
+
+function NewButton(props) {
+    
         return (
             <button>
-                Click this button
+                Click this button, {props.name}
             </button>
         )
-    }
+
 }
+
 
 export default NewButton
